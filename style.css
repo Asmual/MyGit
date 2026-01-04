@@ -1,9 +1,59 @@
-.container a{
-  font-size: 30px;
-  text-decoration: none;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: cadetblue;
+*{
+  margin: 0;
+  padding: 0;
 }
-.manu ul li{
-  list-style-type: none;
+#navigation{
+  background-color: rgb(27, 10, 103);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+#navigation > ul{
+  display: flex;
+  margin-right: 50px;
+  
+}
+#navigation > ul > li {
+  list-style: none;
+  margin: 0px 5px;
+  margin-left: -6px;
+  padding: 15px 0px;
+}
+#navigation > ul > li:first-child >a {
+  border-left: 1px solid white ;
+  padding-left: 15px;
+}
+#navigation > ul li:hover > a {
+  background-color: rgb(37, 10, 246);
+}
+#navigation > ul > li >a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  border-right: 1px solid white;
+  padding: 15px 20px;
+  transition: 1s;
+}
+.DropDownManu {
+  background-color: rgb(27, 10, 103);
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 15px;
+  position: absolute;
+  width: 190px;
+}
+.DropDownManu > li {
+  padding: 10px 0;
+  border-bottom: 1px solid white;
+  
+}
+.LOGO h2 {
+  color: aliceblue;
+  margin-left: 20px;
+  
 }
